@@ -3,7 +3,7 @@ import Carddata from "./Carddata";
 import { useState } from "react";
 
 export default function Collections() {
-  const[data,SetData]=useState(Carddata);
+  const[data]=useState(Carddata);
     
     return(
         <div className='menu'>
